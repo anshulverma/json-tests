@@ -2,9 +2,11 @@ Testing JSON libraries
 ===================================
 
 Welcome!
+
 Here, I am attempting to tests various JSON libraries. Please feel free to add/modify.
 
 To execute, just run:
+
     mvn test
 
 avro
@@ -12,10 +14,10 @@ avro
 
 This is a simple test for Apache Avro API.
 
-# ReflectTest
+#### ReflectTest
   - Tests Avro's reflection API
 
-# AnnotationTest
+#### AnnotationTest
   - Test to understand Avro's annotations
 
 
@@ -24,6 +26,6 @@ jackson
 
 Testing Jackson as JSON parser.
 
-# DataBindTest
+#### DataBindTest
   - Full POJO data binding test
 
