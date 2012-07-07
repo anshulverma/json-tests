@@ -1,14 +1,29 @@
-Tests for understanding Apache Avro
+Testing JSON libraries
 ===================================
 
-avro-reflect-test
------------------
+Welcome!
+Here, I am attempting to tests various JSON libraries. Please feel free to add/modify.
 
-This is a simple test for Apache Avro's reflection API.
 To execute, just run:
-
     mvn test
 
-This will execute the test class `com.nuaavee.avro.AvroReflectTest` and if everything goes well, you should see the following in your console:
+avro
+----
 
-    Tests run: 2, Failures: 0, Errors: 0, Skipped: 0
+This is a simple test for Apache Avro API.
+
+# ReflectTest
+  - Tests Avro's reflection API
+
+# AnnotationTest
+  - Test to understand Avro's annotations
+
+
+jackson
+-------
+
+Testing Jackson as JSON parser.
+
+# DataBindTest
+  - Full POJO data binding test
+
