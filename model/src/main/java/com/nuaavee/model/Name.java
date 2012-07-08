@@ -1,4 +1,4 @@
-package com.nuaavee.model.company.employee;
+package com.nuaavee.model;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

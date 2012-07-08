@@ -2,25 +2,22 @@ package com.nuaavee.json.jackson;
 
 import static com.google.common.collect.Lists.newArrayList;
 import static junit.framework.Assert.assertEquals;
-
 import java.io.IOException;
-
 import org.codehaus.jackson.JsonGenerationException;
 import org.codehaus.jackson.JsonParseException;
 import org.codehaus.jackson.map.JsonMappingException;
 import org.codehaus.jackson.map.ObjectMapper;
-
+import com.nuaavee.model.Name;
+import com.nuaavee.model.Person;
 import com.nuaavee.model.company.BasicCompany;
 import com.nuaavee.model.company.Company;
 import com.nuaavee.model.company.employee.Employee;
-import com.nuaavee.model.company.employee.Name;
-import com.nuaavee.model.company.employee.Person;
 
 public class DataBindTest {
   
   private static final Company COMPANY_DTO =
       new BasicCompany("Gotham City", "LexCorp", true,
-        new Person(71, new Name("Lex", "Luthor")),
+        new Person(71, new com.nuaavee.model.Name("Lex", "Luthor")),
         newArrayList(
             new Employee(new Name("Lana", "Lang"), 62, 999999),
             new Employee(new Name("Talia", "al Ghul"), 41, 420)));

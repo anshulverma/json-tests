@@ -1,9 +1,8 @@
 package com.nuaavee.model.company;
 
-import com.nuaavee.model.company.employee.Employee;
-import com.nuaavee.model.company.employee.Person;
-
 import java.util.List;
+import com.nuaavee.model.Person;
+import com.nuaavee.model.company.employee.Employee;
 
 public interface Company {
   String getLocation();

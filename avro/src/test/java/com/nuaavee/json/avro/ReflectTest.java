@@ -1,10 +1,10 @@
 package com.nuaavee.json.avro;
 
+import com.nuaavee.model.Name;
+import com.nuaavee.model.Person;
 import com.nuaavee.model.company.Company;
 import com.nuaavee.model.company.BasicCompany;
 import com.nuaavee.model.company.employee.Employee;
-import com.nuaavee.model.company.employee.Name;
-import com.nuaavee.model.company.employee.Person;
 import java.io.IOException;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.nuaavee.json.avro.util.AvroUtils.deserializeFromJson;

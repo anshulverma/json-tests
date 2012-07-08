@@ -1,8 +1,7 @@
 package com.nuaavee.model.company;
 
+import com.nuaavee.model.Person;
 import com.nuaavee.model.company.employee.Employee;
-import com.nuaavee.model.company.employee.Person;
-
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
