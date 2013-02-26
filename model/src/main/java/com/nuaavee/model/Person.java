@@ -4,6 +4,7 @@ import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;
 import org.apache.commons.lang.builder.ToStringBuilder;
 import org.apache.commons.lang.builder.ToStringStyle;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 public class Person {
   private int age;
@@ -27,12 +28,14 @@ public class Person {
     this.age = age;
   }
 
-  public Name getName() {
+  @JsonProperty("jcr:title")
+  public Name getJcrTitle() {
     return name;
   }
 
-  public void setName(Name name) {
-    this.name = name;
+  @JsonProperty("jcr:title")
+  public void setJcrTitle(Name jcrTitle) {
+    this.name = jcrTitle;
   }
 
   @Override
